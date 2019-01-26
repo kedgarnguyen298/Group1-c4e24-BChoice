@@ -2,6 +2,7 @@ import mongoengine
 import mlab
 from models.foody_model import Foody
 
-mlab.connect()
+if __name__ == "__main__":    
+    mlab.connect()
 
-Foody.objects.update(title = "Bữa chính")
+    Foody.objects.update(title = "Bữa chính")
