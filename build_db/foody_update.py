@@ -5,4 +5,4 @@ from models.foody_model import Foody
 if __name__ == "__main__":    
     mlab.connect()
 
-    Foody.objects.update(title = "Bữa chính")
+    Foody.objects.delete()

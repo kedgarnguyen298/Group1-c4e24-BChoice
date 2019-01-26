@@ -17,10 +17,10 @@ if __name__ == "__main__":
     for item in food_items:
         name = item['name']
         address = item['address']
-        image = item['photos'][0]['value']
+        image = item['photos'][6]['value']
         rate = randint(8, 10)
         position = item['position']
-        title = "Đồ uống"
+        title = "Ăn vặt"
         
         #2. Push into DB
         new_item = Foody(name=name, address=address, image=image, rate=rate, position=position, title=title)
