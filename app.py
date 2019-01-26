@@ -39,6 +39,9 @@ def suggest(user_title, user_address):
                                              show_address=show_address,
                                              show_image=show_image,
                                              show_rate=show_rate)  
+@app.route('/img')
+def img():
+  return render_template('jkasd.html')
 
 if __name__ == '__main__':
   app.run(debug=True)
