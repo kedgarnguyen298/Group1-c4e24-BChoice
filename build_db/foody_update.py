@@ -4,4 +4,4 @@ from models.foody_model import Foody
 
 mlab.connect()
 
-Foody.objects.update(set__title="Cơm")
+Foody.objects.update(title = "Bữa chính")

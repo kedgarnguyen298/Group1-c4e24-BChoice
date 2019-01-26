@@ -6,3 +6,4 @@ class Foody(Document):
     address = StringField()
     image = URLField()
     rate = IntField()
+    position = DictField()

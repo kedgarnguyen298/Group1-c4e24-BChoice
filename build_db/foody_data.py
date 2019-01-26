@@ -18,9 +18,11 @@ for item in food_items:
     address = item['address']
     image = item['photos'][0]['value']
     rate = randint(8, 10)
+    position = item['position']
+    title = "Đồ uống"
     
     #2. Push into DB
-    new_item = Foody(name=name, address=address, image=image, rate=rate)
+    new_item = Foody(name=name, address=address, image=image, rate=rate, position=position, title=title)
     new_item.save()
 
 
