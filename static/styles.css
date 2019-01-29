@@ -2,12 +2,6 @@
     font-family: 'Cardo', serif;
 }
 
-.fieldset {
-    width: 1000px;
-    justify-content: center;
-    background-color: #ccc;
-}
-
 #root {
     padding: 10px;
     border-radius: 5px;

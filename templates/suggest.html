@@ -18,26 +18,39 @@
 
 </head>
 <body>
+        <nav class="navbar fixed-top navbar-dark bg-primary">
+                <div class="container">    	
+                    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mtren"></button>
+                    <div class="collapse navbar-toggleable-xs   " id="mtren">
+                        <a class="navbar-brand text-xs-center text-sm-left"  alt="">BChoice</a>
+                        <ul class="nav navbar-nav float-sm-right">
+                            <li class="nav-item active">
+                                <a class="nav-link " href="#">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="">About us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- het container -->
+            </nav>
+        
     <div class="suggest">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 text-xs-center">
-                    <img src="{{ show_image1 }}" alt="">
-                    <h5 class="name">{{ show_name1 }}</h5>
-                    <h5 class="address">{{ show_address1 }}</h5>
+                    <div class="col-sm-6 push-sm-3 text-xs-center tieude">This is a few suggestions for you</col-sm-push>
+            </div>
+            <div class="row">
+                {% for show_data_con in item_list_con %}
+                <div class="col-sm-4">
+                    <img src="{{ show_data_con.image }}" alt="">
+                    <h5 class="name">{{ show_data_con.name }}</h5>
+                    <h5 class="address">{{ show_data_con.address }}</h5>
                 </div>
-                <div class="col-sm-4 text-xs-center">
-                    <img src="{{ show_image2 }}" alt="">
-                    <h5 class="name">{{ show_name2 }}</h5>
-                    <h5 class="address">{{ show_address2 }}</h5>
-                </div>
-                <div class="col-sm-4 text-xs-center">
-                    <img src="{{ show_image3 }}" alt="">
-                    <h5 class="name">{{ show_name3 }}</h5>
-                    <h5 class="address">{{ show_address3 }}</h5>
-                </div>
-
-
+                {% endfor %}
             </div>
         </div>
     </div>
