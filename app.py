@@ -19,7 +19,7 @@ def expect():
     form = request.form
     user_address = form["address"]
     user_title = form["title"]
-    
+    print("user" + user_title)
     return redirect('/food-suggest/' + user_title + '/' + user_address)
      
 @app.route('/food-suggest/<user_title>/<user_address>', methods = ["GET"])
