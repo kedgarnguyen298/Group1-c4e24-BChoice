@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> BChoice - Choose the Best!  </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    <script type="text/javascript" src="{{ url_for('static', filename='bootstrap.js') }}">
+    // <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
+	<!-- <link rel="stylesheet" href="vendor/bootstrap.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700" rel="stylesheet">
+    <script src="{{ url_for('static', filename='index.js') }}"></script>   
+
+</head>
+<body>
+    <div class="suggest">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-xs-center">
+                    <img src="{{ show_image1 }}" alt="">
+                    <h5 class="name">{{ show_name1 }}</h5>
+                    <h5 class="address">{{ show_address1 }}</h5>
+                </div>
+                <div class="col-sm-4 text-xs-center">
+                    <img src="{{ show_image2 }}" alt="">
+                    <h5 class="name">{{ show_name2 }}</h5>
+                    <h5 class="address">{{ show_address2 }}</h5>
+                </div>
+                <div class="col-sm-4 text-xs-center">
+                    <img src="{{ show_image3 }}" alt="">
+                    <h5 class="name">{{ show_name3 }}</h5>
+                    <h5 class="address">{{ show_address3 }}</h5>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
