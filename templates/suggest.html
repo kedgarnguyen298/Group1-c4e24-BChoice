@@ -18,6 +18,7 @@
 
 </head>
 <body>
+<<<<<<< HEAD
         <nav class="navbar fixed-top navbar-dark bg-primary">
                 <div class="container">    	
                     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mtren"></button>
@@ -51,6 +52,22 @@
                     <h5 class="address">{{ show_data_con.address }}</h5>
                 </div>
                 {% endfor %}
+=======
+    <div class="suggest">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-xs-center">
+                    {% for show_data_con in item_list_con %}
+                        <img src="{{ show_data_con.image }}" alt="">
+                        <h5 class="name">{{ show_data_con.name }}</h5>
+                        <h5 class="address">{{ show_data_con.address }}</h5>
+                    {% endfor %}
+                    <!-- {% for show_rate_con in show_rate %}
+                    <h5 class="rate">{{ show_rate_con }}</h5>
+                    {% endfor %} -->
+                </div>
+
+>>>>>>> 8992a84e9ea451bd61564f5d442122c8e1d3ab92
             </div>
         </div>
     </div>

@@ -27,8 +27,15 @@ def expect():
 def suggest(user_title, user_address):
   item_list = Foody.objects(title = user_title, address_search__contains = user_address)
   item_list_con = sample(set(item_list), len(item_list))
+<<<<<<< HEAD
 
   return render_template("suggest.html", item_list_con=item_list_con)
+=======
+  if len(item_list_con) != 0:
+    return render_template("suggest.html", item_list_con=item_list_con)
+  else:
+    return render_template("novalid.html")
+>>>>>>> 8992a84e9ea451bd61564f5d442122c8e1d3ab92
                                              
 
 if __name__ == '__main__':
