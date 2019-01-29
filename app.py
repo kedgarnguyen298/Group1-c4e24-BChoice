@@ -26,9 +26,11 @@ def expect():
 @app.route('/food-suggest/<user_title>/<user_address>', methods = ["GET"])
 def suggest(user_title, user_address):
   item_list = Foody.objects(title = user_title, address_search__contains = user_address)
-  item_list_con = sample(set(item_list), 3)
-
-  return render_template("suggest.html", item_list_con=item_list_con)
+  item_list_con = sample(set(item_list), len(item_list))
+  if len(item_list_con) != 0:
+    return render_template("suggest.html", item_list_con=item_list_con)
+  else:
+    return render_template("novalid.html")
                                              
 
 if __name__ == '__main__':
