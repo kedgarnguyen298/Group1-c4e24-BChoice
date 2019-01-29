@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 from build_db import mlab
 from build_db.models.foody_model import Foody
-from random import randint
+from random import randint, random, sample
 from build_db.decode_test import no_accent_vietnamese
 
 mlab.connect()
@@ -26,8 +26,9 @@ def expect():
 @app.route('/food-suggest/<user_title>/<user_address>', methods = ["GET"])
 def suggest(user_title, user_address):
   item_list = Foody.objects(title = user_title, address_search__contains = user_address)
-  
-  return render_template("suggest.html", item_list=item_list)
+  item_list_con = sample(set(item_list), 3)
+
+  return render_template("suggest.html", item_list_con=item_list_con)
                                              
 
 if __name__ == '__main__':
