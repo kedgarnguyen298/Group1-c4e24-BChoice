@@ -387,16 +387,10 @@
     background-size: cover;
     color: white;
     padding-top: 150px;
-<<<<<<< HEAD
-    }
-    
-    a.nav-link {
-=======
     background-attachment: fixed;
 }
 
 a.nav-link {
->>>>>>> 8992a84e9ea451bd61564f5d442122c8e1d3ab92
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 300;
@@ -517,9 +511,6 @@ label {
 }
 
 
-<<<<<<< HEAD
-/* het form */
-=======
 /* het footer */
 
 /* form */
@@ -586,4 +577,3 @@ label {
     color: whitesmoke;
     font-family: 'cardo' serif;
 }
->>>>>>> 8992a84e9ea451bd61564f5d442122c8e1d3ab92
