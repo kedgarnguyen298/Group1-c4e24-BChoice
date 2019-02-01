@@ -13,64 +13,119 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=vietnamese" rel="stylesheet">
     <script src="{{ url_for('static', filename='index.js') }}"></script>   
 
 </head>
 <body>
-<<<<<<< HEAD
-        <nav class="navbar fixed-top navbar-dark bg-primary">
-                <div class="container">    	
-                    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mtren"></button>
-                    <div class="collapse navbar-toggleable-xs   " id="mtren">
-                        <a class="navbar-brand text-xs-center text-sm-left"  alt="">BChoice</a>
-                        <ul class="nav navbar-nav float-sm-right">
-                            <li class="nav-item active">
-                                <a class="nav-link " href="#">Home </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="">About us</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- het container -->
-            </nav>
+        <div class="logovamenu ">
+                <nav class="navbar fixed-top navbar-dark bg-primary">
+                    <div class="container">    	
+                        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mtren">
+        
+                        </button>
+                        <div class="collapse navbar-toggleable-xs   " id="mtren">
+                            <a class="navbar-brand text-xs-center text-sm-left"  alt="">BChoice</a>
+        
+                            <ul class="nav navbar-nav float-sm-right">
+                                <li class="nav-item active">
+                                    <a class="nav-link " href="#">Home  </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="">About us</a>
+        
+        
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="">Contact</a>
+        
+                                </li>
+        
+          </ul>
+                                </li>
+        
+                            </ul>
+                        </div>
+                    </div> <!-- het container -->
+                </nav>
+                <div class="banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-xs-center">
+                                <h1>CHOOSE THE BEST !
+                                <p >We provide the best services for you</p>
+                                <a href="/food-expect" class="btn btn-success">Start your choice</a>
+                                
+                            </div>
+                        </div> <!-- het row -->
+                    </div> <!-- het container -->
+                </div> <!-- het banner -->
+            </div> <!-- het logovamenu -->
         
     <div class="suggest">
         <div class="container">
-            <div class="row">
-                    <div class="col-sm-6 push-sm-3 text-xs-center tieude">This is a few suggestions for you</col-sm-push>
-            </div>
+           <div class="row">
+                    <h1 class="col-sm-12 text-xs-center tieude">This is a few suggestions for you</h1>
+            </div> 
             <div class="row">
                 {% for show_data_con in item_list_con %}
                 <div class="col-sm-4">
                     <img src="{{ show_data_con.image }}" alt="">
                     <h5 class="name">{{ show_data_con.name }}</h5>
                     <h5 class="address">{{ show_data_con.address }}</h5>
+                    <!-- <span class="rate">{{ show_data_con.rate }}<i class="fas fa-star"></i></span> -->
                 </div>
                 {% endfor %}
-=======
-    <div class="suggest">
+            </div>
+            <div class="row">
+                    <h1 class="col-sm-12 text-xs-center ex"></h1>
+            </div> 
+        </div>
+    </div>
+    <div class="contactt">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 text-xs-center">
-                    {% for show_data_con in item_list_con %}
-                        <img src="{{ show_data_con.image }}" alt="">
-                        <h5 class="name">{{ show_data_con.name }}</h5>
-                        <h5 class="address">{{ show_data_con.address }}</h5>
-                    {% endfor %}
-                    <!-- {% for show_rate_con in show_rate %}
-                    <h5 class="rate">{{ show_rate_con }}</h5>
-                    {% endfor %} -->
+                <div class="col-sm-6 info">
+                    <div class="info1">
+                            <ul>
+                                    <li>
+                                        <h1>Contact Info</h1>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span class="adr">Address: Tầng 6<br>22 Thành Công<br>quận Ba Đình, Hà Nội</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span class="phone">Phone: +84 38 538 4982</span>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-envelope"></i>
+                                        <span class="mail">Mail: kedgarnguyen298@gmail.com</span>
+                                    </li>
+                                </ul>
+                    </div>
+                    <div class="social">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                    </div>
                 </div>
-
->>>>>>> 8992a84e9ea451bd61564f5d442122c8e1d3ab92
+                <div class="col-sm-6 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14897.142147460485!2d105.81566100000002!3d21.021258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x722d605f919c37a5!2zMjIgVGjDoG5oIEPDtG5nLCBCYSDEkMOsbmgsIEjDoCBO4buZaQ!5e0!3m2!1svi!2sus!4v1548594163694" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="footerr">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 brand">
+                        <p>Copyright 2019 BChoice, All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

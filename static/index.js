@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 
     new WOW().init();
 
-    console.log($('.aboutus').offset().top);
+    // console.log($('.aboutus').offset().top);
     
     $('.logovamenu ul li:nth-child(2) a').on('click',function(event){
         event.preventDefault();
@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
     $('.logovamenu ul li:nth-child(3) a').on('click',function(event){
         event.preventDefault();
 
-        $('html,body').animate({ scrollTop: $('.contact').offset().top},1000);
+        $('html,body').animate({ scrollTop: $('.contactt').offset().top},1000);
     });
     var btn = $('#button');
 
