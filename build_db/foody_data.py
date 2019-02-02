@@ -20,11 +20,7 @@ for item in food_items:
     address = item['address']
     image = item['photos'][6]['value']
     rate = randint(8, 10)
-<<<<<<< HEAD
-    title = "Bữa chính"
-=======
     title = "Ăn vặt"
->>>>>>> 8992a84e9ea451bd61564f5d442122c8e1d3ab92
     address_search = no_accent_vietnamese(address.lower())
     #2. Push into DB
     new_item = Foody(name=name, address=address, image=image, rate=rate, title=title, address_search=address_search)
