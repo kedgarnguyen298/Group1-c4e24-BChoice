@@ -1,0 +1,1195 @@
+* {
+    margin:0;
+    padding: 0;
+    }
+
+.banner h3 {
+    color: #feb518;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 125px;
+}
+
+.banner {
+    background: url(images/slide03.jpg);
+    height: 360px;
+    background-size: cover;
+}
+
+.chu h3 {
+    color: orange;
+}
+
+.searching {
+    margin-bottom: -40px;
+}
+
+.searching img {
+    width: 350px;
+    height: 427px;
+}
+
+.chu h1 {
+    font-size: 50px;
+}
+
+.chu p {
+    font-size: 34px;
+    padding-top: 20px;
+}
+
+.chu {
+    position: absolute;
+    color: white;
+    margin-left: 6%;
+    padding-top: 157px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+img.potato {
+    height: 350px;
+}
+
+.nen {
+    border: 1px solid #edeaea;
+    height: 300px;
+}
+
+.nen h5 {
+    padding-left: 15px;
+    p: 9px;
+}
+
+.background {
+    height: 100%;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/60641/ice-cream-oreo-frappuccino-waffles-60641.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+}
+
+.instagram .img_insta {
+    padding-top: 30px;
+}
+
+.instagram {margin: 40px 0 70px 0;}
+
+
+.footerr {
+    height: 10%;
+    width: 100%;
+}
+
+.footerr p {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    margin-top: 35px;
+}
+
+.footer p {
+    font-weight: 300;
+}
+
+.info1 {
+    margin-top: 55px;
+}
+
+.social i {
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+.social i.fab.fa-google-plus-g {
+    padding: 6px 4px;
+}
+
+.social i.fab.fa-instagram {
+    padding: 6px 8px;
+}
+
+.social i.fab.fa-facebook-f {
+    padding: 6px 11px;
+}
+
+.contactt li {
+    padding-bottom: 15px;
+}
+
+
+.contactt h1 {
+    color: white;
+    line-height: 1.3;
+}
+
+.contactt ul {
+    list-style: none;
+}
+
+.map iframe {
+    width: 616.5px;
+    height: 400px;
+}
+
+.suggest .col-sm-4 {
+    padding-bottom: 25px;
+}
+
+
+.tieude {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+h1.tieude:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+
+.suggest h5.address {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #7b7a7a;
+}
+
+.suggest h5.name {
+    font-size: 17px;
+    margin: 6px 0;
+    color: #333333;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 13px;
+}
+
+.suggest img {
+    width: 100%;
+    height: 70%;
+    border-bottom: 3px solid #fd8282;
+}
+    
+    .contact .ct {
+    padding-left: 60px;
+    }
+    
+    .contact li {
+    padding-bottom: 5px;
+    }
+    
+    .contact i.fas {
+    padding-right: 20px;
+    float: left;
+    }
+    
+    i.fas.fa-map-marker-alt {
+    padding-bottom: 29px;
+    }
+
+.contactt i.fas {
+    padding-right: 20px;
+    float: left;
+    margin-top: 4px;
+    color: red;
+}
+    
+    .bando {
+        width: 100%;
+        height: 50%;
+    }
+    
+
+    
+    .slogan {
+    padding: 65px 0;
+    }
+    
+    .slogan h1 {
+    font-size: 45px;
+    }
+    
+    .intro h5 {
+    padding-top: 19px;
+    }
+    
+
+    
+    .ourteam img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+    
+    .ourteam {
+    overflow: hidden;
+    background: #1d1c1c;
+    padding: 40px 0;
+    color: white;
+    }
+    
+    .aboutus p,.slogan p {
+    font-size: 18px;
+    color: #888282;
+    }
+    
+    .aboutus {
+    padding: 65px 0;
+    color: #403e3e;
+    }
+    
+    a.btn.btn-success {
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 15px 34px 18px 34px;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    background: #e53d34;
+    border-color: #e53d34;
+    text-transform: uppercase;
+    }
+    
+    /* .banner p {
+    font-size: 20px;
+    color: #888282;
+    }
+    
+    .banner h1 {
+    font-size: 50px;
+    }
+     */
+    
+    nav.navbar.navbar-dark.bg-primary {
+    background: black!important;
+    }
+
+    
+    html,body {
+    height: 100%;
+    width: 100%;
+    }
+    
+    #button {
+        background: #d242c7c4;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        border-radius: 5px;
+        padding: 9px;
+        font-size: 21px;
+        z-index: 1000;
+        transition: 0.3s;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .show {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    
+    
+    /* contact */
+    
+    iframe {width: 100%;height: 100%;}
+    
+    .ct h1 {
+    margin-top: -49px;
+    }
+    
+    span.phone {
+    margin-bottom: 0px;
+    }
+    
+    .ct ul {
+    list-style: none;
+    padding-top: 49px;
+    }
+    
+    .contact span, .test p, .contact i {
+    font-size: 16px;
+    color: #888282;
+    }
+    
+    i.far.fa-envelope {
+    padding-right: 9px;
+    color: red;
+    }
+    
+    .contact .test h1, .ct h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 33px;
+    color: #dc1212;
+    }
+    
+    .contact {
+    padding: 55px 0;
+    color: #3e3c3c;
+    }
+    
+    /* het contact */
+    
+    /* ourteam */
+    
+    
+    .intro h5 {
+        padding-top: 19px;
+    }
+
+
+.team h1:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+    
+
+.aboutus h1:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+
+    
+    .ourteam {
+        overflow: hidden;
+        background: black;
+        padding: 40px 0;
+        color: white;
+    }
+    
+    /* het ourteam */
+    
+    /* aboutus */
+    
+    .aboutus p,.slogan p {
+        font-size: 16px;
+        color: #888282;
+    }
+    
+    .aboutus {
+        padding: 55px;
+        color: #403e3e;
+    }
+    
+    /* het aboutus */
+    
+    /* logovamenu */
+
+    
+
+.banner .row {
+    padding-top: 35px;
+}
+
+    
+    
+    html,body {
+        height: 100%;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+.instagram h1 {
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.instagram h1:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+    
+    .logovamenu .dropdown-menu a {
+        color: white;
+        text-transform: uppercase;
+        line-height: 30px;
+        }
+        
+    
+
+    
+
+    
+    /* het logovamenu */
+    
+    
+    
+    /* footer */
+    
+    /* .footer i.fab.fa-google-plus-g {
+        background: #ea4c89;
+    }
+    
+    .footer i.fab.fa-instagram {
+        background: #3f729b;
+    }
+    
+    .footer i.fab.fa-facebook-f {
+        background: #3b5998;
+    }
+    
+    .footer i {
+        color: white;
+        height: 50px;
+        width: 50px;
+        background: red;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 57px;
+        margin-right: 10px;
+    }
+    
+    .footer i.fab.fa-twitter {
+        background: #55acee;
+    }
+    
+    
+    /* .footer p {
+        color: #8c8989;
+        font-size: 12px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-family: 'Cardo', serif;
+    } */
+    
+    /* het footer */
+    
+    
+    
+    /* logovamenu */
+
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 77px;
+    color: black;
+    margin-right: 25px;
+    margin-top: 13px;
+    }
+    
+    /* het logovamenu */
+    
+    
+    
+    /* footer */
+    
+    .footer i.fab.fa-google-plus-g {
+    background: #ea4c89;
+    }
+    
+    .footer i.fab.fa-instagram {
+    background: #3f729b;
+    }
+    
+    .footer i.fab.fa-facebook-f {
+    background: #3b5998;
+    }
+    
+    .footer i {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 57px;
+    margin-right: 10px;
+    }
+    
+    .footer i.fab.fa-twitter {
+    background: #55acee;
+    }
+    
+    .footer {
+    background: black;
+    /* margin-top: 119px; */
+    }
+    
+    .footer p {
+    color: #8c8989;
+    font-size: 12px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    /* het footer */
+
+
+/* form */
+
+
+.form_label {
+    min-width: 70px;
+    display: inline-block;
+}
+
+.inp_1 {
+    margin-bottom: 16px;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* het footer */
+
+/* het footer */
+
+/* form */
+
+html, body {
+    background-size: cover;
+}
+
+.form_label {
+    min-width: 70px;
+    display: inline-block;
+}
+
+.instagram .img_insta {
+    padding-top: 30px;
+}
+
+.instagram {margin: 40px 0 70px 0;}
+
+.instagram img {
+    width: 100%;
+}
+
+.footerr {
+    height: 10%;
+    width: 100%;
+}
+
+.footerr p {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    margin-top: 35px;
+}
+
+.footer p {
+    font-weight: 300;
+}
+
+.info1 {
+    margin-top: 55px;
+}
+
+.social i {
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+.social i.fab.fa-google-plus-g {
+    padding: 6px 4px;
+}
+
+.social i.fab.fa-instagram {
+    padding: 6px 8px;
+}
+
+.social i.fab.fa-facebook-f {
+    padding: 6px 11px;
+}
+
+.contactt li {
+    padding-bottom: 15px;
+}
+
+
+.contactt h1 {
+    color: white;
+    line-height: 1.3;
+}
+
+.contactt ul {
+    list-style: none;
+}
+
+.contactt {
+    background: #0e0e0e;
+    height: 400px;
+    color: #dacece;
+    font-size: .9em;
+    margin-top: 40px;
+}
+
+.map iframe {
+    width: 616.5px;
+    height: 400px;
+}
+
+
+
+.suggest h5.address {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #7b7a7a;
+}
+
+.suggest h5.name {
+    font-size: 17px;
+    margin: 6px 0;
+    color: #333333;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 13px;
+}
+
+.suggest img {
+    width: 100%;
+    height: 173px;
+    border-bottom: 3px solid #fd8282;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+    
+    .contact .ct {
+    padding-left: 60px;
+    }
+    
+    .contact li {
+    padding-bottom: 5px;
+    }
+    
+    .contact i.fas {
+    padding-right: 20px;
+    float: left;
+    }
+    
+    i.fas.fa-map-marker-alt {
+    padding-bottom: 29px;
+    }
+
+.contactt i.fas {
+    padding-right: 20px;
+    float: left;
+    margin-top: 4px;
+    color: red;
+}
+    
+    .bando {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .aboutus ul {
+    color: #252323;
+    padding-top: 15px;
+    font-weight: 300;
+    }
+    
+    .slogan {
+    padding: 65px 0;
+    }
+    
+    .slogan h1 {
+    font-size: 45px;
+    }
+    
+    .intro h5 {
+    padding-top: 19px;
+    }
+    
+    .ourteam {
+    overflow: hidden;
+    background: #1d1c1c;
+    padding: 40px 0;
+    color: white;
+    }
+    
+    .aboutus p,.slogan p {
+    font-size: 18px;
+    color: #888282;
+    }
+    
+    .aboutus {
+    padding: 65px 0;
+    color: #403e3e;
+    }
+    
+    
+    nav.navbar.navbar-dark.bg-primary {
+    background: black!important;
+    }
+    
+    .logovamenu1 {
+    height: 10%;
+    width: 100%;
+    margin-bottom: 100px;
+    }
+    
+    html,body {
+    height: 100%;
+    width: 100%;
+    }
+    
+    #button {
+        background: #d242c7c4;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        border-radius: 5px;
+        padding: 9px;
+        font-size: 21px;
+        z-index: 1000;
+        transition: 0.3s;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .show {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    
+    
+    /* contact */
+    
+    iframe {width: 100%;height: 100%;}
+    
+    .ct h1 {
+    margin-top: -49px;
+    }
+    
+    span.phone {
+    margin-bottom: 0px;
+    }
+    
+    .ct ul {
+    list-style: none;
+    padding-top: 49px;
+    }
+    
+    .contact span, .test p, .contact i {
+    font-size: 16px;
+    color: #888282;
+    }
+    
+    i.far.fa-envelope {
+    padding-right: 9px;
+    color: red;
+    }
+    
+    .contact .test h1, .ct h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 33px;
+    color: #dc1212;
+    }
+    
+    .contact {
+    padding: 55px 0;
+    color: #3e3c3c;
+    }
+    
+    /* het contact */
+    
+    /* ourteam */
+    
+    .gt p {
+    padding-bottom: 45px;
+    color: #888282;
+    font-size: 16px;
+    padding-top: 14px;
+    font-weight: 300;
+    }
+    
+    .intro h5 {
+        padding-top: 19px;
+    }
+    
+    .team h1 {
+        font-size: 45px;
+        padding-bottom: 20px;
+        position: relative;
+        font-weight: 300;
+    }
+
+.team h1:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+    
+    .aboutus h1 {
+        font-size: 45px;
+        color: #555555;
+        position: relative;
+        padding: 20px;
+        font-weight: 300;
+    }
+
+.aboutus h1:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+
+    
+    .ourteam img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    .ourteam {
+        overflow: hidden;
+        background: #0d0d0d;
+        padding: 40px 0;
+        color: white;
+    }
+    
+    /* het ourteam */
+    
+    /* aboutus */
+    
+    .aboutus p,.slogan p {
+        font-size: 16px;
+        color: #888282;
+    }
+    
+    .aboutus {
+        padding: 55px;
+        color: #403e3e;
+    }
+    
+    /* het aboutus */
+    
+    /* logovamenu */
+    
+    a.btn.btn-success {
+        font-weight: 800;
+        letter-spacing: 1px;
+        padding: 15px 34px 18px 34px;
+        border-radius: 0;
+        background: red;
+        border-color: red;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    
+
+.banner .row {
+    padding-top: 35px;
+}
+    
+    a.navbar-brand.text-xs-center.text-sm-left {
+        color: red;
+        font-family: 'Megrim', cursive;
+        font-size: 60px;
+    }
+    
+
+    
+    .logovamenu {
+        height: 70%;
+        width: 100%;
+        margin-bottom: 119px;
+    }
+    
+
+.instagram h1 {
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.instagram h1:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+}
+    
+    .logovamenu .dropdown-menu a {
+        color: white;
+        text-transform: uppercase;
+        line-height: 30px;
+        }
+        
+    .logovamenu .bg-primary ul li ul.dropdown-menu {background: rgb(0, 0, 0);text-align: center;margin-top: 0px;left: 82%;border-radius: 0 !important;}
+    
+    
+    .logovamenu a.nav-link {
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 77px;
+        color: black;
+        margin-right: 25px;
+        margin-top: 13px;
+    }
+    
+    /* het logovamenu */
+    
+    
+    
+    /* footer */
+    
+    /* .footer i.fab.fa-google-plus-g {
+        background: #ea4c89;
+    }
+    
+    .footer i.fab.fa-instagram {
+        background: #3f729b;
+    }
+    
+    .footer i.fab.fa-facebook-f {
+        background: #3b5998;
+    }
+    
+    .footer i {
+        color: white;
+        height: 50px;
+        width: 50px;
+        background: red;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 57px;
+        margin-right: 10px;
+    }
+    
+    .footer i.fab.fa-twitter {
+        background: #55acee;
+    }
+    
+    
+    /* .footer p {
+        color: #8c8989;
+        font-size: 12px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-family: 'Cardo', serif;
+    } */
+    
+    /* het footer */
+    
+    
+    
+    /* logovamenu */
+
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 77px;
+    color: black;
+    margin-right: 25px;
+    margin-top: 13px;
+    }
+    
+    /* het logovamenu */
+    
+    
+    
+    /* footer */
+    
+    .footer i.fab.fa-google-plus-g {
+    background: #ea4c89;
+    }
+    
+    .footer i.fab.fa-instagram {
+    background: #3f729b;
+    }
+    
+    .footer i.fab.fa-facebook-f {
+    background: #3b5998;
+    }
+    
+    .footer i {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 57px;
+    margin-right: 10px;
+    }
+    
+    .footer i.fab.fa-twitter {
+    background: #55acee;
+    }
+    
+    .footer {
+    background: black;
+    /* margin-top: 119px; */
+    }
+    
+    .footer p {
+    color: #8c8989;
+    font-size: 12px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    /* het footer */
+
+
+/* het footer */
+
+.social i {
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+.searching {
+    padding: 20px;
+    background-image: url(expect.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.root {
+    padding: 20px;
+    width: 100%;
+}
+
+html, body {
+    background-size: cover;
+}
+
+.social i.fab.fa-facebook-f {
+    padding: 6px 11px;
+}
+
+.inp_1 {
+    margin-bottom: 16px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+label {
+    color: black;
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(280,280,280,0.5);
+}
+
+#btn_search {
+    width: 35%;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right;
+}
