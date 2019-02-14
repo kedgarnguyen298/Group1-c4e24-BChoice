@@ -14,6 +14,11 @@ jQuery(document).ready(function() {
 
         $('html,body').animate({ scrollTop: $('.contactt').offset().top},1000);
     });
+    $('.logovamenu1 ul li:nth-child(2) a').on('click',function(event){
+      event.preventDefault();
+
+      $('html,body').animate({ scrollTop: $('.contactt').offset().top},1000);
+  });
     var btn = $('#button');
 
     $(window).scroll(function() {

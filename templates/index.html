@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="logovamenu ">
-		<nav class="navbar fixed-top navbar-light">
+		<nav class="navbar navbar-light">
 			<div class="container">    	
 				<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mtren">
 
@@ -32,22 +32,16 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link " href="">About us</a>
-
-
 						</li>
 						<li class="nav-item ">
 							<a class="nav-link" href="">Contact</a>
-
 						</li>
-
-  </ul>
-						</li>
-
-					</ul>
+                    </ul>
 				</div>
 			</div> <!-- het container -->
 		</nav>
-		<div class="banner">
+    </div> <!-- het logovamenu -->
+    	<div class="banner">
             <div class="chu">
                 <h1>CHOOSE THE BEST !
                 <p >We provide the best services for you</p>
@@ -55,7 +49,6 @@
             </div>
             <img src="{{url_for('static', filename='slide02.jpg')}}" />	
 		</div> <!-- het banner -->
-	</div> <!-- het logovamenu -->
     <div class="aboutus">
         <div class="container">
             <div class="row">
@@ -78,7 +71,7 @@
     <div class="ourteam">
         <div class="container">
             <div class="row" >
-                <div class="col-xs-12 text-xs-center team wow fadeInDown">
+                <div class="col-sm-12 text-xs-center team wow fadeInDown">
                     <h1>Our Team</h1>
                 </div>
                 <div class="col-xs-6 push-xs-3 text-xs-center gt wow fadeInUp">
@@ -111,17 +104,62 @@
             </div>
         </div>
     </div>
-    <div style="display: flex;
-                justify-content: center;">
-        <img src="/static/techkids.png" alt="" style="display: flex;
-                                                      justify-content: center;
-                                                      height: 40%;
-                                                      width: 40%;">
-    </div>
+    <div class="slide">
+        <div id="slidehome" class="carousel slide slidecon" data-ride="carousel" data-interval="5000">
+               <ol class="carousel-indicators">
+                   <li data-target="#slidehome" data-slide-to="0" class="active"></li>
+                   <li data-target="#slidehome" data-slide-to="1"></li>
+               </ol>
+               <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                            <div class="instagram">
+                                    <div class="container">
+                                        <div class="row img_insta">
+                                                <div class="col-xs-3">
+                                                    <img src="https://scontent.cdninstagram.com/vp/f02733812633ccc8c8eb8eac3b50922d/5CE7CCFF/t51.2885-15/e35/s320x320/43984710_574166249685325_5681720559545801579_n.jpg?_nc_ht=scontent.cdninstagram.com" alt="">
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <img src="https://scontent.cdninstagram.com/vp/a88a2020d9a6dbb0fd6e816dba2a2ee6/5CEE4AE5/t51.2885-15/e35/s320x320/44372652_1807284399349014_340499354337317766_n.jpg?_nc_ht=scontent.cdninstagram.com" alt="">
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <img src="https://scontent.cdninstagram.com/vp/ef956d44403d45c877cec0d3ab81ddeb/5CEDA589/t51.2885-15/e35/s320x320/43175526_259046218144403_2775260800368045643_n.jpg?_nc_ht=scontent.cdninstagram.com" alt="">
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <img src="https://scontent.cdninstagram.com/vp/f2c05f5769055ebc35edca3cc29c6054/5CF8A57F/t51.2885-15/e35/s320x320/44192273_733427280350148_2298189278762317132_n.jpg?_nc_ht=scontent.cdninstagram.com" alt="">
+                                                </div>
+                                        </div>
+                                    </div>                                
+                            </div>
+                        </div> 
+                   <div class="carousel-item">      
+                        <div class="instagram">
+                            <div class="container">
+                                <div class="row img_insta">
+                                        <div class="col-xs-3">
+                                            <img src="{{url_for('static', filename='dau.jpg')}}" alt="">
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <img src="{{url_for('static', filename='dao.jpg')}}" alt="">
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <img src="{{url_for('static', filename='dia.jpg')}}" alt="">
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <img src="{{url_for('static', filename='rau.jpg')}}" alt="">
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                    <!-- het item -->
+               </div>
+           </div>
+        </div> <!-- het slide  -->
     <div class="contactt">
-            <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 info">
+                    <div class="col-xs-12 col-sm-6 info">
                         <div class="info1">
                                 <ul>
                                         <li>
@@ -148,16 +186,15 @@
                                 <i class="fab fa-google-plus-g"></i>
                         </div>
                     </div>
-                    <div class="col-sm-6 map">
+                    <div class="col-xs-12 col-sm-6 map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14897.142147460485!2d105.81566100000002!3d21.021258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x722d605f919c37a5!2zMjIgVGjDoG5oIEPDtG5nLCBCYSDEkMOsbmgsIEjDoCBO4buZaQ!5e0!3m2!1svi!2sus!4v1548594163694" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
         </div>
         <div class="footerr">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 brand">
+                    <div class="col-xs-12 col-sm-8 brand">
                             <p>Copyright 2019 BChoice, All Right Reserved</p>
                     </div>
                 </div>
