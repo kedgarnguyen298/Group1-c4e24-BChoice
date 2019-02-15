@@ -313,15 +313,18 @@ i.far.fa-envelope {
 
 .searching {
     padding: 20px;
-    background-image: url(expect.jpg);
+    background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
     background-position: center;
     background-size: cover;
+    transform: rotateY(180deg);
 }
 
 fieldset {
     border-radius: 5px;
     padding: 20px;
-    background-color: rgba(280,280,280,0.5);
+    /* background-color: rgba(280,280,280,0.5); */
+    transform: rotateY(-180deg);
+    margin-top: 36px;
 }
 
 /* #root {

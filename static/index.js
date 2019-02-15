@@ -22,6 +22,7 @@ jQuery(document).ready(function() {
     var btn = $('#button');
 
     $(window).scroll(function() {
+      console.log(window.pageYOffset);
       if ($(window).scrollTop() > 300) {
         btn.addClass('show');
       } else {
