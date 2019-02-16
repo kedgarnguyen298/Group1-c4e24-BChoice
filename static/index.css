@@ -469,7 +469,7 @@ iframe {
 }
 
 .instagram {
-    margin: 40px 0 0 0;
+    margin: 40px 0 40px 0;
 }
 
 .instagram img {
@@ -573,6 +573,17 @@ a.nav-link {
 @media (min-width: 576px) and (max-width:750px){
     *{}
 
+button#btn_search {
+    height: 45px;
+    font-size: 15px;
+    padding: 1px;
+}
+
+div#root {
+    margin-left: -38px;
+    width: 249px;
+}
+
 .ourteam h5 {
     font-size: 19px;
 }
@@ -594,7 +605,7 @@ a.nav-link {
 }
 
 .instagram {
-    margin: 40px 0 0 0;
+    margin: 40px 0 40px 0;
 }
 
 .info1, .social {margin-left: 34px;}
