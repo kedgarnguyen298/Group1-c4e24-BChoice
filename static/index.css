@@ -292,6 +292,11 @@ i.far.fa-envelope {
     color: red;
 }
 
+i.fas.fa-sort-up {
+    color: black;
+    padding-left: 3px;
+}
+
 /* hetcontact */
 
 
@@ -324,7 +329,7 @@ fieldset {
     padding: 20px;
     /* background-color: rgba(280,280,280,0.5); */
     transform: rotateY(-180deg);
-    margin-top: 36px;
+    margin-top: 27px;
 }
 
 /* #root {
@@ -369,7 +374,7 @@ select, input {
     background-color: white;
     color: black;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 29px 0;
     border-color: black;
     border-radius: 0;
     cursor: pointer;
